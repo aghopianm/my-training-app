@@ -14,6 +14,9 @@ const Header = () => {
             <li className="nav-item">
               <Link className="nav-link text-white" to="/workouts">Workouts</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white" to="/recipes">Recipes</Link>
+            </li>
           </ul>
         </nav>
       </div>

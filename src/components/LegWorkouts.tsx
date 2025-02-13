@@ -1,5 +1,3 @@
-// src/components/LegWorkouts.tsx
-
 import React from 'react';
 import VideoList from './VideoList';
 
@@ -14,7 +12,7 @@ function LegWorkouts() {
 
   return (
     <div>
-      <h3>Leg Workouts</h3>
+      <h2>Leg Workouts</h2>
       <VideoList videos={videos} emptyHeading="No videos available" />
     </div>
   );

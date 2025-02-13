@@ -1,5 +1,3 @@
-// src/components/ChestBackWorkouts.tsx
-
 import React from 'react';
 import VideoList from './VideoList';
 
@@ -15,7 +13,7 @@ function ChestBackWorkouts() {
 
   return (
     <div>
-      <h3>Chest & Back Workouts</h3>
+      <h2>Chest & Back Workouts</h2>
       <VideoList videos={videos} emptyHeading="No videos available" />
     </div>
   );

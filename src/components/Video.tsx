@@ -7,7 +7,7 @@ function Video({ video }) {
       <h3>{video.title}</h3>
       {video.url ? (
         <iframe 
-          width="560" 
+          width="450" 
           height="315" 
           src={video.url} 
           title={video.title} 

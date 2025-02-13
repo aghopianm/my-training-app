@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import ChestBackWorkouts from './components/ChestBackWorkouts';
 import LegWorkouts from './components/LegWorkouts';
+import ArmsShouldersWorkouts from './components/ArmsShouldersWorkouts';
 
 function App() {
   return (
@@ -30,11 +31,14 @@ function App() {
                 <Link to="/workouts/chest-back">Chest & Back Workouts</Link>
                 <br />
                 <Link to="/workouts/leg">Leg Workouts</Link>
+                <br />
+                <Link to="/workouts/arms-shoulders">Arms & Shoulders Workouts</Link>
               </>
             }
           />
           <Route path="/workouts/chest-back" element={<ChestBackWorkouts />} />
           <Route path="/workouts/leg" element={<LegWorkouts />} />
+          <Route path="/workouts/arms-shoulders" element={<ArmsShouldersWorkouts />} />
         </Routes>
       </div>
     </Router>

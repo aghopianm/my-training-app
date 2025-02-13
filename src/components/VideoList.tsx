@@ -1,12 +1,12 @@
-// src/VideoList.js
+
 import React from 'react';
-import Video from './Video'; // Make sure to import the Video component
+import Video from './Video'; 
 
 function VideoList({ videos, emptyHeading }) {
   const count = videos.length;
   let heading = emptyHeading;
   if (count > 0) {
-    const noun = count > 1 ? 'Videos' : 'Video';
+    const noun = count > 1 ? 'Exercises' : 'Exercise';
     heading = count + ' ' + noun;
   }
   return (

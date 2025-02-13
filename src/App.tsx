@@ -3,14 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import ChestBackWorkouts from "./components/ChestBackWorkouts";
-import LegWorkouts from "./components/LegWorkouts";
-import ArmsShouldersWorkouts from "./components/ArmsShouldersWorkouts";
-import WorkoutsList from "./components/WorkoutsList";
-import RecipesList from "./components/RecipesList";
-import HighProteinRecipes from "./components/HighProteinRecipes";
-import HealthySnacks from "./components/HealthySnacks";
-import Smoothies from "./components/Smoothies";
+import { WorkoutsList, ChestBackWorkouts, LegWorkouts, ArmsShouldersWorkouts } from "./components/workouts";
+import { RecipesList, HighProteinRecipes, HealthySnacks, Smoothies } from "./components/recipes";
+
 
 function App() {
   return (

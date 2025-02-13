@@ -1,0 +1,28 @@
+html, body {
+    background-color: #e9ecef !important; /* Light gray background */
+    color: #212529; /* Dark text for readability */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .btn-primary {
+    background-color: #20c997; /* Soft teal color */
+    border-color: #20c997;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #17a68b; /* Darker teal for hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .nav-link {
+    color: #20c997; /* Soft teal links */
+  }
+  
+  .nav-link:hover {
+    color: #17a68b; /* Darker teal on hover */
+  }
+  

@@ -1,5 +1,3 @@
-// src/Video.js
-import React from 'react';
 
 function Video({ video }) {
   return (

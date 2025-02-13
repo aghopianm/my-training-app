@@ -1,5 +1,5 @@
 
-import React from 'react';
+
 import Video from './Video'; 
 
 function VideoList({ videos, emptyHeading }) {
@@ -11,7 +11,7 @@ function VideoList({ videos, emptyHeading }) {
   }
   return (
     <section>
-      <h2>{heading}</h2>
+      <h3>{heading}</h3>
       {videos.map(video =>
         <Video key={video.id} video={video} />
       )}

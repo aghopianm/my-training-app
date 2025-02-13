@@ -1,4 +1,4 @@
-import RecipeCard from "./recipes/RecipeCard";
+import {RecipeCard} from ".";
 
 const RecipesList = () => {
   const recipes = [

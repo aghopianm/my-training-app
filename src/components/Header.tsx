@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-dark text-white py-4">
+    <header className="navbar-gradient text-white py-4">
       <div className="container">
         <h1 className="display-4 text-center">My Fitness App</h1>
         <nav>
